@@ -1,0 +1,294 @@
+2018-12-10 21:07:55.200 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 15428 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:07:55.210 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:07:57.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:07:57.797 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:07:57.819 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:07:57.820 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:07:57.833 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:07:58.057 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:07:58.058 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2698 ms
+2018-12-10 21:07:58.565 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:07:58.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:07:58.895 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:07:58.934 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:07:58.943 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.867 seconds (JVM running for 8.307)
+2018-12-10 21:09:13.628 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 4048 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:09:13.637 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:09:16.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:09:16.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:09:16.819 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:09:16.820 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:09:16.833 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:09:17.084 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:09:17.085 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3217 ms
+2018-12-10 21:09:17.596 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:09:17.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:09:17.945 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:09:17.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:09:18.001 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 6.0 seconds (JVM running for 8.321)
+2018-12-10 21:10:46.662 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 13748 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:10:46.673 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:10:50.110 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:10:50.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:10:50.158 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:10:50.159 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:10:50.171 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:10:50.461 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:10:50.462 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3575 ms
+2018-12-10 21:10:50.898 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:10:51.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:10:51.232 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:10:51.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:10:51.279 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.806 seconds (JVM running for 8.047)
+2018-12-10 21:10:51.284 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:16:39.020 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 11788 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:16:39.030 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:16:42.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:16:42.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:16:42.262 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:16:42.263 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:16:42.283 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:16:42.638 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:16:42.639 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3235 ms
+2018-12-10 21:16:43.242 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:16:43.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:16:43.703 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:16:43.752 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:16:43.765 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 7.137 seconds (JVM running for 10.275)
+2018-12-10 21:16:43.775 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:18:02.054 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12468 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:18:02.065 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:18:06.432 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:18:06.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:18:06.502 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:18:06.503 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:18:06.523 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:18:07.119 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:18:07.120 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4827 ms
+2018-12-10 21:18:41.164 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:18:41.790 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:18:41.851 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:18:41.918 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:18:41.931 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 41.607 seconds (JVM running for 47.715)
+2018-12-10 21:18:41.943 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:19:04.583 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 5548 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:19:04.594 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:19:08.587 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:19:08.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:19:08.667 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:19:08.667 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:19:08.687 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:19:09.073 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:19:09.074 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4319 ms
+2018-12-10 21:19:09.724 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:19:10.173 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:19:10.203 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:19:10.253 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:19:10.264 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 7.834 seconds (JVM running for 11.834)
+2018-12-10 21:19:10.272 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:19:59.641 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 14112 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:19:59.650 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:20:03.177 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:20:03.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:20:03.234 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:20:03.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:20:03.247 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:20:03.503 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:20:03.505 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2909 ms
+2018-12-10 21:20:04.119 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:20:04.585 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:20:04.611 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:20:04.649 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:20:04.656 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 6.977 seconds (JVM running for 9.951)
+2018-12-10 21:20:04.664 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:20:04.665 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:21:35.585 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12472 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:21:35.687 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:21:38.916 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:21:38.947 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:21:38.976 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:21:38.977 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:21:38.997 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:21:39.338 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:21:39.339 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3482 ms
+2018-12-10 21:21:39.952 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:21:40.415 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:21:40.445 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:21:40.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:21:40.505 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 24.231 seconds (JVM running for 27.519)
+2018-12-10 21:21:40.514 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:21:40.516 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:24:32.819 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 11700 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:24:32.827 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:25:00.963 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 15576 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:25:00.994 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:25:04.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:25:04.611 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:25:04.635 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:25:04.636 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:25:04.653 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:25:05.003 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:25:05.005 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3478 ms
+2018-12-10 21:25:05.718 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:25:06.289 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:25:06.314 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:25:06.364 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:25:06.379 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 8.605 seconds (JVM running for 11.914)
+2018-12-10 21:25:06.388 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:25:06.389 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:26:21.413 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 15720 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:26:21.434 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:26:24.675 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:26:24.703 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:26:24.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:26:24.730 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:26:24.745 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:26:25.080 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:26:25.081 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2942 ms
+2018-12-10 21:26:25.597 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:26:25.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:26:25.995 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:26:26.033 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:26:26.044 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 6.468 seconds (JVM running for 9.268)
+2018-12-10 21:26:26.050 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:26:26.051 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:29:58.217 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12416 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:29:58.229 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:29:58.542 [main] WARN  c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-12-10 21:29:58.543 [main] ERROR c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-12-10 21:29:58.543 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-12-10 21:29:58.543 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-12-10 21:30:01.040 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:30:01.065 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:30:01.087 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:30:01.087 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:30:01.100 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:30:01.331 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:30:01.332 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2788 ms
+2018-12-10 21:30:01.796 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:30:02.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:30:02.128 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:30:02.158 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:30:02.166 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.547 seconds (JVM running for 7.81)
+2018-12-10 21:30:02.171 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:30:02.172 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:31:07.428 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 5252 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:31:07.438 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:31:07.585 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-12-10 21:31:07.585 [main] WARN  c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-12-10 21:31:07.586 [main] ERROR c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-12-10 21:31:07.586 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-12-10 21:31:07.586 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-12-10 21:31:10.378 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:31:10.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:31:10.439 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:31:10.440 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:31:10.458 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:31:10.719 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:31:10.719 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3126 ms
+2018-12-10 21:31:11.181 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:31:11.506 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:31:11.524 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:31:11.557 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:31:11.564 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.698 seconds (JVM running for 8.072)
+2018-12-10 21:31:11.570 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:31:11.571 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:32:39.077 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 8016 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:32:39.088 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:32:42.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:32:42.219 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:32:42.241 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:32:42.242 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:32:42.255 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:32:42.477 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:32:42.478 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3214 ms
+2018-12-10 21:32:42.918 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:32:43.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:32:43.245 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:32:43.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:32:43.283 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.765 seconds (JVM running for 8.095)
+2018-12-10 21:32:43.289 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:35:22.582 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 15164 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:35:22.624 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:35:22.780 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-12-10 21:35:22.780 [main] WARN  c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-12-10 21:35:22.780 [main] ERROR c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-12-10 21:35:22.781 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-12-10 21:35:22.781 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-12-10 21:35:25.726 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:35:25.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:35:25.788 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:35:25.788 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:35:25.807 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:35:26.157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:35:26.157 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3376 ms
+2018-12-10 21:35:26.732 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:35:27.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:35:27.181 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:35:27.225 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:35:27.235 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 6.197 seconds (JVM running for 8.845)
+2018-12-10 21:35:27.244 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:35:27.245 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-12-10 21:38:16.804 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 4396 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:38:16.823 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:38:20.291 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:38:20.317 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:38:20.341 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:38:20.341 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:38:20.354 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:38:20.593 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:38:20.594 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2878 ms
+2018-12-10 21:38:21.022 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:38:21.368 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:38:21.387 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:38:21.422 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:38:21.430 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 6.9 seconds (JVM running for 9.63)
+2018-12-10 21:38:21.438 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:38:55.614 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Starting GsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 16300 (D:\workspace_springboot\gsoft\gsoft-framework\gsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\gsoft-framework)
+2018-12-10 21:38:55.627 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-12-10 21:38:55.916 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-12-10 21:38:55.917 [main] WARN  c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-12-10 21:38:55.926 [main] ERROR c.g.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-12-10 21:38:55.927 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-12-10 21:38:55.927 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-12-10 21:38:58.199 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-12-10 21:38:58.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:38:58.244 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-10 21:38:58.245 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 21:38:58.257 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-12-10 21:38:58.521 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-10 21:38:58.522 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2594 ms
+2018-12-10 21:38:59.024 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:38:59.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-12-10 21:38:59.388 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-10 21:38:59.419 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-12-10 21:38:59.426 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - Started GsoftFrameworkContextApplication in 5.771 seconds (JVM running for 8.35)
+2018-12-10 21:38:59.432 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動
+2018-12-10 21:38:59.433 [main] INFO  c.g.f.context.GsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}

@@ -1,0 +1,7 @@
+com\gsoft\framework\codemap\entity\Codeitem.class
+com\gsoft\framework\codemap\dao\CodeitemDao.class
+com\gsoft\framework\codemap\service\CodemapManager.class
+com\gsoft\framework\codemap\entity\Codemap.class
+com\gsoft\framework\codemap\service\ConvertManager.class
+com\gsoft\framework\codemap\service\CodeitemManager.class
+com\gsoft\framework\codemap\dao\CodemapDao.class

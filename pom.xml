@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.6.RELEASE</version> 
+    </parent>  
+    
+    <groupId>com.gsoft.framework</groupId>
+    <artifactId>gsoft-framework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+     
+     <packaging>pom</packaging>
+    
+    <name>gsoft-framework</name>
+    <description>Demo project for Spring Boot</description>
+
+
+    <properties>
+        
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- 编译时的编码 -->
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <nexus.root>http://javanotes.cn:8081</nexus.root>
+
+        <shiro.version>1.2.5</shiro.version>
+        <quartz.version>2.2.3</quartz.version>
+
+        <commons.lang.version>2.6</commons.lang.version>
+        <commons.io.version>2.5</commons.io.version>
+
+        <kaptcha.version>2.3.2</kaptcha.version>
+        <poi.version>3.14</poi.version>
+        <cglib.version>2.2</cglib.version>
+        <xdocreport.version>1.0.6</xdocreport.version>
+        <itextpdf.version>5.5.9</itextpdf.version>
+        <itext-asian.version>5.2.0</itext-asian.version>
+        <pdfbox.version>2.0.2</pdfbox.version>
+        <tika.version>1.13</tika.version>
+ 
+        <freehep.graphicsio.version>2.4</freehep.graphicsio.version>
+        
+    </properties>
+    
+    <modules>
+      
+      <module>gsoft-framework-core</module>
+      <module>gsoft-framework-context</module> 
+      <module>gsoft-framework-contextweb</module>
+      <module>gsoft-framework-cache-redis</module>
+      <module>gsoft-framework-security</module>
+      <module>gsoft-framework-jpa</module>
+      <module>gsoft-framework-codemap</module>
+      <module>gsoft-framework-remote</module>
+      <module>gsoft-framework-httpclientutil</module>
+      <module>gsoft-framework-job</module>
+     
+      <module>gsoft-framework-jpa-start</module>
+
+
+
+      <module>gsoft-framework-jobImpl</module>
+      <module>gsoft-framework-codemapImpl</module>
+      <module>gsoft-framework-security-app</module>
+      <module>gsoft-framework-pubsub-redis</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+  
+  
+      <dependencyManagement>
+        <dependencies>
+
+            <!-- Spring Data Cassandra -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-cql</artifactId>
+                <version>1.5.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-cassandra</artifactId>
+                <version>1.5.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Commons -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-commons</artifactId>
+                <version>1.13.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Couchbase -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-couchbase</artifactId>
+                <version>2.2.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Elasticsearch -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-elasticsearch</artifactId>
+                <version>2.1.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Gemfire -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-gemfire</artifactId>
+                <version>1.9.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data JPA -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-jpa</artifactId>
+                <version>1.11.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data MongoDB -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-mongodb</artifactId>
+                <version>1.10.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-mongodb-cross-store</artifactId>
+                <version>1.10.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-mongodb-log4j</artifactId>
+                <version>1.10.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Neo4j -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-neo4j</artifactId>
+                <version>4.2.6.RELEASE</version>
+            </dependency>
+
+          <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-redis</artifactId>
+                <version>2.0.0.RELEASE</version>
+            </dependency> 
+
+            <!-- Spring Data REST -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-rest-webmvc</artifactId>
+                <version>2.6.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-rest-core</artifactId>
+                <version>2.6.6.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-rest-hal-browser</artifactId>
+                <version>2.6.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Solr -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-solr</artifactId>
+                <version>2.1.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data KeyValue -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-keyvalue</artifactId>
+                <version>1.2.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data Envers -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-envers</artifactId>
+                <version>1.1.6.RELEASE</version>
+            </dependency>
+
+            <!-- Spring Data LDAP -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-ldap</artifactId>
+                <version>1.0.6.RELEASE</version>
+            </dependency>
+              
+              
+        </dependencies>
+    </dependencyManagement> 
+  
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+
+            <!-- <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <charset>UTF-8</charset>
+                </configuration>
+            </plugin> -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>fix</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <aggregate>true</aggregate>
+                    <show>public</show>
+                    <charset>UTF-8</charset>
+                    <encoding>UTF-8</encoding>
+                    <docencoding>UTF-8</docencoding>
+                    <excludePackageNames>com.alibaba.com.*</excludePackageNames>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-webdav</artifactId>
+                <version>1.0-beta-2</version>
+            </extension>
+        </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>1.0</version>
+                </plugin>
+            </plugins>
+
+        </pluginManagement>
+    </build>
+
+
+
+</project>
