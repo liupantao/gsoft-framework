@@ -1,25 +1,33 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+# Eclipse
+.metadata/
+*.settings/
+*.tmp
+*.project
+*.classpath
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# app测试代码
+/modules/app/
+
+## Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java
+## Compiled class file
+*.class
+
+## Log file
+*.log
+*.log.*
+
+## Package files
+*.jar
+
+# Maven
+/target/.idea
+/modules/*/gsoftFileTmp/
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/

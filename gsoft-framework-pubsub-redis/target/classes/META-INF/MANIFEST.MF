@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: gsoft-framework-pubsub-redis
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Administrator
+Built-By: liupantao
 Implementation-Vendor-Id: com.gsoft.framework
 Build-Jdk: 1.8.0_172
 Implementation-URL: http://projects.spring.io/spring-boot/gsoft-framew
