@@ -1,0 +1,24 @@
+# Eclipse
+.metadata/
+*.settings/
+*.tmp
+*.project
+*.classpath
+
+## Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java
+## Compiled class file
+*.class
+
+## Log file
+*.log
+*.log.*
+/gsoftFileTmp/
+
+## Package files
+*.jar
+
+# Maven
+/target/
