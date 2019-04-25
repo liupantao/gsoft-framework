@@ -29,7 +29,7 @@ import com.gsoft.framework.util.StringUtils;
 @RequestMapping("/")
 public class LoginController {
 
-	@Autowired
+	@Autowired(required = false)
 	private LogoutService logoutService;
 
 	@Autowired(required = false)
