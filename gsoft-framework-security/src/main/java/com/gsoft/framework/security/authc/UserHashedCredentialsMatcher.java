@@ -6,7 +6,7 @@ import org.apache.shiro.crypto.hash.Hash;
 /**
  * 密码匹配服务
  * 
- * @author liupantao
+ * @author liupeng
  *
  */
 public class UserHashedCredentialsMatcher extends HashedCredentialsMatcher {

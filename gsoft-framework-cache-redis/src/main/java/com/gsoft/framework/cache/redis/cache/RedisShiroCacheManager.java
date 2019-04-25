@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 /**
  * 缓存
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  */
 public class RedisShiroCacheManager implements CacheManager {

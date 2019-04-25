@@ -19,7 +19,7 @@ import com.gsoft.framework.taglib.resource.PageResourceBundleMessageSource;
 @Configuration
 public class WebUiConfig {
 
-	@Autowired
+	@Autowired(required=false)
 	private CacheManager cacheManager;
 	
 	@Bean(name = "pageScriptFactory")

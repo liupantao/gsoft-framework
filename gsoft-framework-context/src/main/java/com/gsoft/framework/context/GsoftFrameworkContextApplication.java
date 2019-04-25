@@ -18,7 +18,18 @@ public class GsoftFrameworkContextApplication {
     private final static Log logger = LogFactory.getLog(GsoftFrameworkContextApplication.class);
     public static void main(String[] args) {
     	logger.info("------》》context---启动");
-        SpringApplication.run(GsoftFrameworkContextApplication.class, args);
+    	ConfigurableApplicationContext context = SpringApplication.run(GsoftFrameworkContextApplication.class, args);
+        context.addApplicationListener(new AppConfigFileListener());
+        logger.info("****************項目啟動");
+        ConfigurableEnvironment environment = context.getEnvironment();
+        String property1 = environment.getProperty("server.ports");
+        String property2 = environment.getProperty("localhost.server.ports");
+        MutablePropertySources propertySources = environment.getPropertySources();
+        //propertySources.get
+        PropertySource<?> propertySource = propertySources.get("config-remote.properties");
+        /*Object property = propertySource.getProperty("config-remote.properties");
+        Object source = propertySource.getSource();*/
+        logger.info("****************項目啟動"+propertySource);
    
     }
 

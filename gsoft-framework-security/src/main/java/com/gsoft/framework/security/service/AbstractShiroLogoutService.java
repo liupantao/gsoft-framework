@@ -12,7 +12,7 @@ import com.gsoft.framework.security.LogoutService;
 
 /**
  * 
- * @author liupantao
+ * @author LiuPeng
  *
  */
 public abstract class AbstractShiroLogoutService implements LogoutService{

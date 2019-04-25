@@ -37,7 +37,7 @@ import com.gsoft.framework.util.StringUtils;
 /**
  * Shiro 配置
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  */
 @Configuration

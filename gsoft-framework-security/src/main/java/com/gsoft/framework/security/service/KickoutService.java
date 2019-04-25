@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * 踢人
- * @author liupantao
+ * @author LiuPeng
  * @date 2018年7月23日
  *  
  */

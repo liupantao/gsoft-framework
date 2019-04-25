@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 /**
  * app session
  * 
- * @author liupantao
+ * @author liupeng
  *
  */
 public class NavaWebSessionManager extends DefaultSessionManager implements WebSessionManager  {

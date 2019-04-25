@@ -17,7 +17,7 @@ import org.apache.shiro.subject.Subject;
 /**
  * 登录日志接口
  * 
- * @author liupantao
+ * @author liupeng
  * @date 2018年4月28日
  * 
  */

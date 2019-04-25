@@ -8,11 +8,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.context.config.ConfigFileApplicationListener;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
 import org.springframework.boot.context.event.ApplicationPreparedEvent;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.boot.env.EnvironmentPostProcessor;
 import org.springframework.boot.env.PropertySourcesLoader;
 import org.springframework.boot.logging.DeferredLog;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MutablePropertySources;
@@ -22,6 +24,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import com.gsoft.framework.context.CompanyLogo;
@@ -32,6 +35,8 @@ import com.gsoft.framework.context.CompanyLogo;
  * @author liupantao
  * 
  */
+
+@Component
 public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered, ApplicationListener<ApplicationEvent> {
 
 	private static final DeferredLog logger = new DeferredLog();
@@ -92,6 +97,7 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 	 */
 	@Override
 	public void onApplicationEvent(ApplicationEvent event) {
+		System.out.println("------------------------->event---->>"+event);
 		if (event instanceof ApplicationEnvironmentPreparedEvent) {
 			ApplicationEnvironmentPreparedEvent e = (ApplicationEnvironmentPreparedEvent) event;
 			postProcessEnvironment(e.getEnvironment(), e.getSpringApplication());
@@ -99,5 +105,9 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 		if (event instanceof ApplicationPreparedEvent) {
 			logger.replayTo(AppConfigFileListener.class);
 		}
+		if (event instanceof ApplicationReadyEvent) {
+			logger.replayTo(AppConfigFileListener.class);
+		}
+		
 	}
 }

@@ -22,13 +22,13 @@ import com.gsoft.framework.context.annotation.Module;
 
 /**
  * 
- * @author liupantao
+ * @author LiuPeng
  *
  */
 @Module(
 	name="security",
 	caption = "shiro安全控制",
-	scanPackages={"auth", "conf","service"}
+	scanPackages={"authc", "conf","service"}
 )
 public class ModuleConfig {
 	

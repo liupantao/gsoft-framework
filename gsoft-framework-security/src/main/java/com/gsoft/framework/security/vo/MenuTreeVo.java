@@ -10,7 +10,7 @@ import com.gsoft.framework.util.StringUtils;
 /**
  * 菜单映射对象
  * 
- * @author liupantao
+ * @author LiuPeng
  * @date 2018年4月14日
  * 
  */

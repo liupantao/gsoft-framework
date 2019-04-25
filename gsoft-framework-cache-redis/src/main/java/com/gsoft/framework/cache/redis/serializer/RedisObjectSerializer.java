@@ -7,7 +7,7 @@ import org.springframework.data.redis.serializer.SerializationException;
 
 /**
  * redis序列化对象
- * @author liupantao
+ * @author LiuPeng
  * @date 2017年10月17日
  *  
  */

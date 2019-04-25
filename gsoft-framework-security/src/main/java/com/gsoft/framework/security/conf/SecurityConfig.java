@@ -9,7 +9,7 @@ import com.gsoft.framework.security.authc.UserHashedCredentialsMatcher;
 /**
  * UserSecurityConfig 配置
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  */
 @Configuration

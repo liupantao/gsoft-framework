@@ -13,7 +13,7 @@ import com.gsoft.framework.security.service.KickoutService;
 /**
  * 踢人服务
  * 
- * @author liupantao
+ * @author LiuPeng
  * @date 2018年7月23日
  * 
  */

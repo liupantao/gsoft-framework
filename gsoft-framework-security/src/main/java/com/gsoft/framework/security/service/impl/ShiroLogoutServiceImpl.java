@@ -6,7 +6,7 @@ import com.gsoft.framework.security.service.AbstractShiroLogoutService;
 
 /**
  * 
- * @author liupantao
+ * @author LiuPeng
  *
  */
 @Service("shiroLogoutService")

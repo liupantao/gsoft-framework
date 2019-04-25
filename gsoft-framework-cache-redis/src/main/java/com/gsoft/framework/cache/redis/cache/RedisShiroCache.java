@@ -12,7 +12,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  * @param <K>
  * @param <V>

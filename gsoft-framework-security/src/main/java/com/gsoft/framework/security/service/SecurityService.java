@@ -5,7 +5,7 @@ import java.util.List;
 import com.gsoft.framework.security.vo.MenuTreeVo;
 
 /**
- * @author liupantao
+ * @author liupeng
  *
  */
 public interface SecurityService {

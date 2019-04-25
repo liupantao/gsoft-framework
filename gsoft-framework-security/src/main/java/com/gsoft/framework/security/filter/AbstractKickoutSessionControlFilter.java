@@ -26,7 +26,7 @@ import com.gsoft.framework.security.UserService;
 /**
  * 并发登录人数控制
  * 
- * @author liupantao
+ * @author LiuPeng
  * @date 2018年5月3日
  * 
  */

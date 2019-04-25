@@ -14,7 +14,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * 返回json工具类
  * 
- * @author liupantao
+ * @author liupeng
  *
  */
 public class ResJsonUtils {

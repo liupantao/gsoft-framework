@@ -19,7 +19,7 @@ import com.gsoft.framework.security.IUser;
 /**
  * 踢人filter
  * 
- * @author liupantao
+ * @author LiuPeng
  * @date 2018年7月23日
  * 
  */

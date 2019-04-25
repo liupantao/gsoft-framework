@@ -30,7 +30,7 @@ import com.gsoft.framework.security.service.LoginLogService;
 /**
  * 登录认证
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  */
 public class DefaultFormAuthenticationFilter extends FormAuthenticationFilter {

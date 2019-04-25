@@ -6,23 +6,19 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-import org.springframework.data.redis.cache.RedisCacheConfiguration; 
 import org.springframework.data.redis.cache.RedisCacheManager;
-import org.springframework.data.redis.cache.RedisCacheWriter;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import com.gsoft.framework.cache.redis.cache.RedisShiroCacheManager;
 import com.gsoft.framework.cache.redis.serializer.RedisObjectSerializer;
-import com.gsoft.framework.core.log.ConfigRegisterLog;  
-
-import java.time.Duration; 
+import com.gsoft.framework.core.log.ConfigRegisterLog;
 
 /**
  * redis缓存
  * 
- * @author liupantao
+ * @author LiuPeng
  * 
  */
 @Configuration
@@ -34,9 +30,9 @@ public class RedisCacheConfig {
 	
 	@Value("${spring.application.name}")
 	private String applicationName;
+	
 
-
-	/*　@Bean
+	@Bean
 	@Primary
 	public CacheManager cacheManager(RedisTemplate<Object, Object> redisTemplate) {
 		RedisCacheManager cacheManager = new RedisCacheManager(redisTemplate);
@@ -44,18 +40,7 @@ public class RedisCacheConfig {
 		cacheManager.setDefaultExpiration(expriation);
 		ConfigRegisterLog.registeBean(cacheManager, "Redis缓存Manager", this);
 		return cacheManager;
-	}*/
-	@Bean
-	@Primary
-	public CacheManager cacheManager(RedisConnectionFactory redisConnectionFactory) {
-		RedisCacheConfiguration redisCacheConfiguration = RedisCacheConfiguration.defaultCacheConfig()
-				.entryTtl(Duration.ofHours(1)); // 设置缓存有效期一小时
-		
-		return RedisCacheManager 
-				.builder(RedisCacheWriter.nonLockingRedisCacheWriter(redisConnectionFactory))
-				.cacheDefaults(redisCacheConfiguration).build();
 	}
-  
 	
 	@Bean
 	@Primary
@@ -66,6 +51,15 @@ public class RedisCacheConfig {
 		return cacheManager;
 	}
 	
-
+	@Bean
+	public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory factory) {
+		RedisTemplate<Object, Object> template = new RedisTemplate<Object, Object>();
+		template.setConnectionFactory(factory);
+		template.setKeySerializer(new StringRedisSerializer());
+		template.setValueSerializer(new RedisObjectSerializer());
+		template.afterPropertiesSet();
+		ConfigRegisterLog.registeBean(template, "RedisTemplate", this);
+		return template;
+	}
 
 }
