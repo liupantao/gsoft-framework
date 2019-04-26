@@ -6,7 +6,7 @@ package com.gsoft.framework.context;
 
 public class CompanyLogo {
 	
-    public static String companyString =
+    public static String companyString_01 =
 
 			"											                                	\n\n"+
 			"███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	\n" + 
@@ -17,4 +17,19 @@ public class CompanyLogo {
 			"╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	\n" + 
     		" :: navagraha-framework (v1.0.1) : http://www.navagraha.com" + 
     				"\n";
+    
+    
+    public  static String companyString= "\r\n" + 
+    
+            "											                                	\n\n"+
+    		"██╗     ██╗██╗   ██╗    ██████╗  █████╗ ███╗   ██╗    ████████╗ █████╗  ██████╗ \r\n" + 
+    		"██║     ██║██║   ██║    ██╔══██╗██╔══██╗████╗  ██║    ╚══██╔══╝██╔══██╗██╔═══██╗\r\n" + 
+    		"██║     ██║██║   ██║    ██████╔╝███████║██╔██╗ ██║       ██║   ███████║██║   ██║\r\n" + 
+    		"██║     ██║██║   ██║    ██╔═══╝ ██╔══██║██║╚██╗██║       ██║   ██╔══██║██║   ██║\r\n" + 
+    		"███████╗██║╚██████╔╝    ██║     ██║  ██║██║ ╚████║       ██║   ██║  ██║╚██████╔╝\r\n" + 
+    		"╚══════╝╚═╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ \r\n" + 
+    		"                                                                                \r\n" + 
+    		" :: gsoft-framework (v1.0.0) : http://www.liupantao.com" + 
+			"\n";
+    		
 }
