@@ -1,0 +1,157 @@
+2019-04-25 17:23:06.532 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - Starting GsoftFrameworkContextwebApplication on DESKTOP-FRB2BR3 with PID 16336 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb)
+2019-04-25 17:23:06.535 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - No active profile set, falling back to default profiles: default
+2019-04-25 17:23:07.191 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-04-25 17:23:08.685 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-25 17:23:08.687 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-04-25 17:23:08.869 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-25 17:23:08.881 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：AccessFilter(AccessFilter) >>> WebComponentConfig
+2019-04-25 17:23:08.890 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：压缩Filter(CompressionFilter) >>> WebComponentConfig
+2019-04-25 17:23:08.891 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：字符集Filter(CharacterEncodingFilter) >>> WebComponentConfig
+2019-04-25 17:23:08.896 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Servlet：验证码Servlet(DefaultKaptchaServlet) >>> WebComponentConfig
+2019-04-25 17:23:09.089 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gsoftConfig': Unsatisfied dependency expressed through field 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cache.CacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-25 17:23:09.092 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-25 17:23:09.212 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cacheManager in com.gsoft.framework.webcontext.conf.GsoftConfig required a bean of type 'org.springframework.cache.CacheManager' that could not be found.
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine'
+	- Bean method 'cacheManager' not loaded because ResourceCondition (EhCache) did not find resource 'classpath:/ehcache.xml'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.google.common.cache.CacheBuilder'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'javax.cache.Caching'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.cache.CacheManager' in your configuration.
+
+2019-04-25 17:33:28.013 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - Starting GsoftFrameworkContextwebApplication on DESKTOP-FRB2BR3 with PID 8408 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb)
+2019-04-25 17:33:28.016 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - No active profile set, falling back to default profiles: default
+2019-04-25 17:33:28.567 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-04-25 17:33:29.836 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-25 17:33:29.838 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-04-25 17:33:29.965 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-25 17:33:29.976 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：AccessFilter(AccessFilter) >>> WebComponentConfig
+2019-04-25 17:33:29.983 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：压缩Filter(CompressionFilter) >>> WebComponentConfig
+2019-04-25 17:33:29.985 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：字符集Filter(CharacterEncodingFilter) >>> WebComponentConfig
+2019-04-25 17:33:29.989 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Servlet：验证码Servlet(DefaultKaptchaServlet) >>> WebComponentConfig
+2019-04-25 17:33:30.134 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gsoftConfig': Unsatisfied dependency expressed through field 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cache.CacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-25 17:33:30.135 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-25 17:33:30.228 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cacheManager in com.gsoft.framework.webcontext.conf.GsoftConfig required a bean of type 'org.springframework.cache.CacheManager' that could not be found.
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine'
+	- Bean method 'cacheManager' not loaded because ResourceCondition (EhCache) did not find resource 'classpath:/ehcache.xml'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.google.common.cache.CacheBuilder'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'javax.cache.Caching'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.cache.CacheManager' in your configuration.
+
+2019-04-25 17:35:01.523 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - Starting GsoftFrameworkContextwebApplication on DESKTOP-FRB2BR3 with PID 7536 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb)
+2019-04-25 17:35:01.526 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - No active profile set, falling back to default profiles: default
+2019-04-25 17:35:02.195 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-04-25 17:35:03.468 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-25 17:35:03.469 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-04-25 17:35:03.612 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-25 17:35:03.622 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：AccessFilter(AccessFilter) >>> WebComponentConfig
+2019-04-25 17:35:03.629 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：压缩Filter(CompressionFilter) >>> WebComponentConfig
+2019-04-25 17:35:03.630 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：字符集Filter(CharacterEncodingFilter) >>> WebComponentConfig
+2019-04-25 17:35:03.634 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Servlet：验证码Servlet(DefaultKaptchaServlet) >>> WebComponentConfig
+2019-04-25 17:35:03.801 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：代码集工厂(ConvertProviderFactory) >>> GsoftConfig$$EnhancerBySpringCGLIB$$cf8001f1
+2019-04-25 17:35:03.807 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：默认代码集提供服务(DefaultConvertProvider) >>> GsoftConfig$$EnhancerBySpringCGLIB$$cf8001f1
+2019-04-25 17:35:03.815 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：国际化LocaleResolver(CookieLocaleResolver) >>> I18nConfig$$EnhancerBySpringCGLIB$$e6f242a0
+2019-04-25 17:35:03.818 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：国际化LocaleChangeInterceptor(LocaleChangeInterceptor) >>> I18nConfig$$EnhancerBySpringCGLIB$$e6f242a0
+2019-04-25 17:35:03.843 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'scriptController': Unsatisfied dependency expressed through field 'pageScriptFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.gsoft.framework.webcontext.autoconfigure.WebUiConfig': Unsatisfied dependency expressed through field 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cache.CacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-04-25 17:35:03.845 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-25 17:35:03.936 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cacheManager in com.gsoft.framework.webcontext.autoconfigure.WebUiConfig required a bean of type 'org.springframework.cache.CacheManager' that could not be found.
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine'
+	- Bean method 'cacheManager' not loaded because ResourceCondition (EhCache) did not find resource 'classpath:/ehcache.xml'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'com.google.common.cache.CacheBuilder'
+	- Bean method 'cacheManager' not loaded because @ConditionalOnClass did not find required class 'javax.cache.Caching'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.cache.CacheManager' in your configuration.
+
+2019-04-25 17:35:36.525 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - Starting GsoftFrameworkContextwebApplication on DESKTOP-FRB2BR3 with PID 880 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-contextweb)
+2019-04-25 17:35:36.527 [main] INFO  c.g.f.w.GsoftFrameworkContextwebApplication - No active profile set, falling back to default profiles: default
+2019-04-25 17:35:37.088 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-04-25 17:35:38.467 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-25 17:35:38.469 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-04-25 17:35:38.639 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-25 17:35:38.651 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：AccessFilter(AccessFilter) >>> WebComponentConfig
+2019-04-25 17:35:38.659 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：压缩Filter(CompressionFilter) >>> WebComponentConfig
+2019-04-25 17:35:38.660 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Filter：字符集Filter(CharacterEncodingFilter) >>> WebComponentConfig
+2019-04-25 17:35:38.665 [localhost-startStop-1] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Servlet：验证码Servlet(DefaultKaptchaServlet) >>> WebComponentConfig
+2019-04-25 17:35:38.836 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：代码集工厂(ConvertProviderFactory) >>> GsoftConfig$$EnhancerBySpringCGLIB$$be7239e8
+2019-04-25 17:35:38.842 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：默认代码集提供服务(DefaultConvertProvider) >>> GsoftConfig$$EnhancerBySpringCGLIB$$be7239e8
+2019-04-25 17:35:38.851 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：国际化LocaleResolver(CookieLocaleResolver) >>> I18nConfig$$EnhancerBySpringCGLIB$$d5e47a97
+2019-04-25 17:35:38.854 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：国际化LocaleChangeInterceptor(LocaleChangeInterceptor) >>> I18nConfig$$EnhancerBySpringCGLIB$$d5e47a97
+2019-04-25 17:35:38.884 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：页面script方法工厂(PageScriptFactory) >>> WebUiConfig$$EnhancerBySpringCGLIB$$e53ff2c0
+2019-04-25 17:35:38.906 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Adapters：导出适配器([com.gsoft.framework.core.web.export.TemplateXlsExportAdapter@1734f68, com.gsoft.framework.core.web.export.XlsWebExportAdapter@5bbc9f97, com.gsoft.framework.core.web.export.PdfWebExportAdapter@443dbe42, com.gsoft.framework.core.web.export.TxtExportAdapter@5ed190be]) >>> WebExportServiceImpl
+2019-04-25 17:35:39.250 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：FastJson MessageConverter() >>> MessageConverterConf$$EnhancerBySpringCGLIB$$25157114
+2019-04-25 17:35:39.502 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：页面ResourceBundleMessageSource(PageResourceBundleMessageSource) >>> WebUiConfig$$EnhancerBySpringCGLIB$$e53ff2c0
+2019-04-25 17:35:39.508 [main] INFO  com.gsoft.framework.core.log.ConfigRegisterLog - 注册Bean：页面装饰器Provider(LayoutProvider) >>> WebUiConfig$$EnhancerBySpringCGLIB$$e53ff2c0
+2019-04-25 17:35:39.510 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getLayoutProvider' defined in class path resource [com/gsoft/framework/webcontext/autoconfigure/WebUiConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect bean class [com.gsoft.framework.taglib.layout.LayoutProvider] for persistence metadata: could not find class that it depends on
+2019-04-25 17:35:39.513 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-25 17:35:39.528 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getLayoutProvider' defined in class path resource [com/gsoft/framework/webcontext/autoconfigure/WebUiConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect bean class [com.gsoft.framework.taglib.layout.LayoutProvider] for persistence metadata: could not find class that it depends on
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.gsoft.framework.webcontext.GsoftFrameworkContextwebApplication.main(GsoftFrameworkContextwebApplication.java:13)
+Caused by: java.lang.IllegalStateException: Failed to introspect bean class [com.gsoft.framework.taglib.layout.LayoutProvider] for persistence metadata: could not find class that it depends on
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:401)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:992)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:523)
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/jsp/PageContext
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:613)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:489)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:431)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:397)
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.PageContext
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
