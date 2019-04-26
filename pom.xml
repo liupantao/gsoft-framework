@@ -8,6 +8,7 @@
         <version>1.5.6.RELEASE</version> 
     </parent>  
     
+    
     <groupId>com.gsoft.framework</groupId>
     <artifactId>gsoft-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
