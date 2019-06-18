@@ -6,13 +6,13 @@
    <parent>
        <groupId>com.gsoft.framework</groupId>
         <artifactId>gsoft-framework</artifactId>
-        <version>0.0.1-SNAPSHOT</version> 
+        <version>2.0.1-SNAPSHOT</version> 
          <relativePath>../</relativePath>
     </parent> 
      
     <groupId>com.gsoft.framework</groupId>
     <artifactId>gsoft-framework-cache-redis</artifactId>
-    <version>0.0.1-SNAPSHOT</version> 
+    <version>2.0.1-SNAPSHOT</version> 
     
     <packaging>jar</packaging>
     <name>gsoft-framework-cache-redis</name>
@@ -25,7 +25,7 @@
          <dependency>
             <groupId>com.gsoft.framework</groupId>
 		    <artifactId>gsoft-framework-context</artifactId>
-		    <version>0.0.1-SNAPSHOT</version>
+		    <version>2.0.1-SNAPSHOT</version>
         </dependency>  
 
         <dependency>

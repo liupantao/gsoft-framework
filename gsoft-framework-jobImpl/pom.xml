@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.gsoft.framework</groupId>
     <artifactId>gsoft-framework</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>gsoft-framework-jobImpl</artifactId>
   
@@ -12,14 +12,14 @@
         <dependency>
             <groupId>com.gsoft.framework</groupId>
             <artifactId>gsoft-framework-job</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>2.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>com.gsoft.framework</groupId>
             <artifactId>gsoft-framework-jpa-start</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>2.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 

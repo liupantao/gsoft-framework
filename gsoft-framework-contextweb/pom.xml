@@ -6,12 +6,12 @@
    <parent>
        <groupId>com.gsoft.framework</groupId>
         <artifactId>gsoft-framework</artifactId>
-        <version>0.0.1-SNAPSHOT</version> 
+        <version>2.0.1-SNAPSHOT</version> 
      </parent> 
 
     <groupId>com.gsoft.framework</groupId>
     <artifactId>gsoft-framework-contextweb</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>gsoft-framework-contextweb</name>
     <description>Demo project for Spring Boot</description>
