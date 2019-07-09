@@ -25,7 +25,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- 编译时的编码 -->
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <nexus.root>http://javanotes.cn:8081</nexus.root>
+       <!--  <nexus.root>http://javanotes.cn:8081</nexus.root> -->
 
         <shiro.version>1.2.5</shiro.version>
         <quartz.version>2.2.3</quartz.version>
