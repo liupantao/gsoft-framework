@@ -85,7 +85,7 @@ public class JpaCondition implements Condition {
 				}
 			} else if (this.operator.equals(Condition.NOT_IN)) {
 				if (value instanceof Object[]) {
-					cb.not(exp.in((Object[]) value));
+					return cb.not(exp.in((Object[]) value));
 				}
 			} else if (this.operator.equals(Condition.LEFT)) {
 				// 小于
