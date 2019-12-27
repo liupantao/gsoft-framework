@@ -1,0 +1,146 @@
+2019-12-26 09:48:10.242 [main] INFO  com.gsoft.framework.security.AppApplication - Starting AppApplication on DESKTOP-FRB2BR3 with PID 9792 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-security\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-security)
+2019-12-26 09:48:10.252 [main] INFO  com.gsoft.framework.security.AppApplication - No active profile set, falling back to default profiles: default
+2019-12-26 09:48:10.299 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 
+											                                	
+
+██╗     ██╗██╗   ██╗    ██████╗  █████╗ ███╗   ██╗    ████████╗ █████╗  ██████╗ 
+██║     ██║██║   ██║    ██╔══██╗██╔══██╗████╗  ██║    ╚══██╔══╝██╔══██╗██╔═══██╗
+██║     ██║██║   ██║    ██████╔╝███████║██╔██╗ ██║       ██║   ███████║██║   ██║
+██║     ██║██║   ██║    ██╔═══╝ ██╔══██║██║╚██╗██║       ██║   ██╔══██║██║   ██║
+███████╗██║╚██████╔╝    ██║     ██║  ██║██║ ╚████║       ██║   ██║  ██║╚██████╔╝
+╚══════╝╚═╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ 
+                                                                                
+ :: gsoft-framework (v1.0.0) : http://www.liupantao.com
+
+2019-12-26 09:48:10.300 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [file [D:\workspace\gsoft\gsoft-framework\gsoft-framework-security\target\classes\appconf\config-security.properties]]
+2019-12-26 09:48:11.127 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：shiro安全控制(security)
+2019-12-26 09:48:11.128 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-12-26 09:48:11.794 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.shiro.cache.CacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-12-26 09:48:11.797 [main] ERROR o.s.b.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d14b6c2: startup date [Thu Dec 26 09:48:10 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.gsoft.framework.security.AppApplication.main(AppApplication.java:31)
+2019-12-26 09:48:11.797 [main] ERROR o.s.b.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d14b6c2: startup date [Thu Dec 26 09:48:10 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.gsoft.framework.security.AppApplication.main(AppApplication.java:31)
+2019-12-26 09:48:11.951 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cacheManager in com.gsoft.framework.security.conf.ShiroConfig required a bean of type 'org.apache.shiro.cache.CacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.shiro.cache.CacheManager' in your configuration.
+
+2019-12-26 09:49:55.625 [main] INFO  com.gsoft.framework.security.AppApplication - Starting AppApplication on DESKTOP-FRB2BR3 with PID 24304 (D:\workspace\gsoft\gsoft-framework\gsoft-framework-security\target\classes started by liupantao in D:\workspace\gsoft\gsoft-framework\gsoft-framework-security)
+2019-12-26 09:49:55.631 [main] INFO  com.gsoft.framework.security.AppApplication - No active profile set, falling back to default profiles: default
+2019-12-26 09:49:55.699 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 
+											                                	
+
+██╗     ██╗██╗   ██╗    ██████╗  █████╗ ███╗   ██╗    ████████╗ █████╗  ██████╗ 
+██║     ██║██║   ██║    ██╔══██╗██╔══██╗████╗  ██║    ╚══██╔══╝██╔══██╗██╔═══██╗
+██║     ██║██║   ██║    ██████╔╝███████║██╔██╗ ██║       ██║   ███████║██║   ██║
+██║     ██║██║   ██║    ██╔═══╝ ██╔══██║██║╚██╗██║       ██║   ██╔══██║██║   ██║
+███████╗██║╚██████╔╝    ██║     ██║  ██║██║ ╚████║       ██║   ██║  ██║╚██████╔╝
+╚══════╝╚═╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝       ╚═╝   ╚═╝  ╚═╝ ╚═════╝ 
+                                                                                
+ :: gsoft-framework (v1.0.0) : http://www.liupantao.com
+
+2019-12-26 09:49:55.700 [main] INFO  c.g.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [file [D:\workspace\gsoft\gsoft-framework\gsoft-framework-security\target\classes\appconf\config-security.properties]]
+2019-12-26 09:49:56.588 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：shiro安全控制(security)
+2019-12-26 09:49:56.591 [main] INFO  com.gsoft.framework.context.ModuleFactory - 注册模块：webcontext(webcontext)
+2019-12-26 09:49:57.639 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroConfig': Unsatisfied dependency expressed through field 'cacheManager'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.shiro.cache.CacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-12-26 09:49:57.642 [main] ERROR o.s.b.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d14b6c2: startup date [Thu Dec 26 09:49:55 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.gsoft.framework.security.AppApplication.main(AppApplication.java:31)
+2019-12-26 09:49:57.643 [main] ERROR o.s.b.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d14b6c2: startup date [Thu Dec 26 09:49:55 CST 2019]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.gsoft.framework.security.AppApplication.main(AppApplication.java:31)
+2019-12-26 09:49:57.803 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cacheManager in com.gsoft.framework.security.conf.ShiroConfig required a bean of type 'org.apache.shiro.cache.CacheManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.shiro.cache.CacheManager' in your configuration.
+

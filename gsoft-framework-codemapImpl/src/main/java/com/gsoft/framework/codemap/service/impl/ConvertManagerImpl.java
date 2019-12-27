@@ -8,6 +8,7 @@ package com.gsoft.framework.codemap.service.impl;
 import com.gsoft.framework.codemap.service.ConvertManager;
 import com.gsoft.framework.core.convert.IConvert;
 import com.gsoft.framework.core.dataobj.Record;
+import com.gsoft.framework.core.service.impl.BaseManagerImpl;
 import com.gsoft.framework.remote.annotation.ServiceMapping;
 import com.gsoft.framework.remote.annotation.ServiceParam;
 import com.gsoft.framework.taglib.convert.Convert;
@@ -17,9 +18,10 @@ import java.util.List;
 import java.util.Locale;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("convertManager")
-public class ConvertManagerImpl implements ConvertManager {
+public class ConvertManagerImpl  implements ConvertManager {
     @Autowired
     private ConvertProviderFactory convertProviderFactory;
 

@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.gsoft.framework.core.convert.IConvert;
 import com.gsoft.framework.core.dataobj.Record;
+import com.gsoft.framework.core.service.BaseManager;
 
 /**
  * ConvertManager接口
@@ -11,7 +12,7 @@ import com.gsoft.framework.core.dataobj.Record;
  * @date 2017年10月17日
  *  
  */
-public interface ConvertManager {
+public interface ConvertManager  {
 	
 	/** 
 	 * 根据名称获取convert

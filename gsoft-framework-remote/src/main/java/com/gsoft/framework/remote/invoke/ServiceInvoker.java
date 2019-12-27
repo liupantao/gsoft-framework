@@ -3,6 +3,8 @@
  */
 package com.gsoft.framework.remote.invoke;
 
+import static org.mockito.Matchers.contains;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
@@ -64,9 +66,12 @@ public class ServiceInvoker implements ApplicationContextAware {
 			throw new BusException(ResCodeConstants.ERROR_PARAM, "缺少服务参数[beanName].");
 		}
 		try {
+			boolean contains = applicationContext.containsBean(beanName);
+			logger.info("从上下文中获取实例" + beanName + "结果"+ contains);
 			return applicationContext.getBean(beanName);
 		} catch (BeansException e) {
 			// logger.error("从上下文中获取实例" + beanName + "失败", e);
+			logger.error("从上下文中获取实例" + beanName + "失败", e);
 			throw new BusException(ResCodeConstants.SERVICE_NOTFOUNT, "未找到服务bean[" + beanName + "].");
 		}
 	}
