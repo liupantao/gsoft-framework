@@ -27,7 +27,7 @@
         <nexus.root>http://javanotes.cn:8081</nexus.root>
 
         <shiro.version>1.2.5</shiro.version>
-        <quartz.version>2.2.3</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
 
         <commons.lang.version>2.6</commons.lang.version>
         <commons.io.version>2.5</commons.io.version>
