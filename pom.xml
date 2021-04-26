@@ -30,7 +30,7 @@
         <quartz.version>2.2.3</quartz.version>
 
         <commons.lang.version>2.6</commons.lang.version>
-        <commons.io.version>2.5</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
 
         <kaptcha.version>2.3.2</kaptcha.version>
         <poi.version>3.14</poi.version>
